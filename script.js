@@ -49,6 +49,7 @@ function game() {
     displayMessage("🎉 Correct Number");
     bodyEl.style.backgroundColor = "green";
     numberEl.style.width = "300px";
+    numberEl.textContent = secretNumber;
 
     // highscore functionality
     if (score > highscore) {
